@@ -1,7 +1,7 @@
 node {
    def mvnHome
   stage('Prepare') {
-      git url: 'https://github.com/Deamon1122/ks.git', branch: 'main'
+      git url: 'https://github.com/Deamon1122/ks.git', branch: 'master'
       mvnHome = tool 'maven'
    }
   stage ('Clean') {
